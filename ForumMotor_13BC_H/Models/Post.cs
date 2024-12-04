@@ -13,5 +13,8 @@
 
         public virtual User User { get; set; }
         public virtual Topic Topic { get; set; }
+
+        public int Like {  get; set; }
+        public int DisLike { get; set; }
     }
 }
